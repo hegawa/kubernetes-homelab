@@ -1,0 +1,20 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "created a hello world",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hegawa/github-workflow.git"
+  },
+  "author": "me & pub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hegawa/github-workflow/issues"
+  },
+  "homepage": "https://github.com/hegawa/github-workflow#readme"
+}
