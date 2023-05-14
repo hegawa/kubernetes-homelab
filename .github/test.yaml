@@ -1,0 +1,25 @@
+# Read more about setting it up
+# https://medium.com/@ljmocic/deploying-react-application-to-aws-s3-using-github-actions-85addacaeace
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./my-app
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Install dependencies
+        run: npm install
+      - name: Test
+        run: npm test
+        env:
+          CI: true

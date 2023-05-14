@@ -32,7 +32,8 @@
                 // "alefragnani.Bookmarks",
                 // "quicktype.quicktype", // Paste JSON as code
                 // "spikespaz.vscode-smoothtype", // smooth cursor animation
-                "editorconfig.editorconfig"
+                "editorconfig.editorconfig",
+                "github.vscode-github-actions" // Github actions
             ],
             "settings": {
                 "files.eol": "\n",
